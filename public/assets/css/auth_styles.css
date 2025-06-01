@@ -1,0 +1,95 @@
+/* Fondo general y estructura base */
+body {
+    margin: 0;
+    padding: 0;
+    background: #F4F6F8;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 2.5rem;
+    color: #1B1F3B;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Etiquetas de los campos */
+label {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 500px;
+    display: grid;
+    gap: 1.2rem;
+}
+
+/* Estilo general para campos de texto */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
+}
+
+/* Botón de envío */
+button[type="submit"] {
+    padding: 14px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Enlaces */
+a {
+    color: #007BFF;
+    text-align: center;
+    display: block;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Párrafos de información */
+p {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 1rem;
+}
